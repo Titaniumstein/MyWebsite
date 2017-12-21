@@ -15,8 +15,9 @@ const CardSub = (props) => (
 
     <CardTitle style={{textAlign:"center"}} title={props.cardTitle} subtitle={props.cardSubtitle} />
 
-    <div class={styles.iconWrapper}>
-      <i className={classnames(styles.icon, props.icon)} aria-hidden="true"></i>
+    <div class={styles.imgContainer}>
+      <img className={styles.image} src={props.icon}/>
+      {/* <i className={classnames(styles.icon, props.icon)} aria-hidden="true"></i> */}
     </div>
     <CardText>
         {props.cardContent}

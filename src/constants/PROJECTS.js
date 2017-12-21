@@ -35,7 +35,7 @@ const stacker = new Project(
     "Stacker",
     "React",
     'This web app is based on the arcade game "stacker"',
-    "https://github.com/Titaniumstein/PickAppHockey_Client",
+    "https://evan-silverstein-stacker.github.io/",
     "fa fa-gamepad"
 )
 
@@ -43,7 +43,7 @@ const hangman = new Project(
     "Hangman",
     "React",
     'This web app is based on the game "hangman"',
-    "https://github.com/Titaniumstein/PickAppHockey_Client",
+    "https://evan-silverstein-hangman.github.io/",
     "fa fa-gamepad"
 )
 

@@ -18,21 +18,21 @@ const general = {
 const sports = {
     title: "Sports",
     headerTitle: "Test 1", // not needed
-    image: "fa fa-futbol-o",
+    image: "https://d30y9cdsu7xlg0.cloudfront.net/png/19299-200.png",
     content: "I have been playing ice hockey for most of my life and I continue to play in a league (Adult Safe Hockey League) every week. Also, I recently started playing organized softball in the summer (Toronto Sports Social Club)."
 }
 
 const chess = {
     title: "Chess",
     headerTitle: "Test 1", // not needed
-    image: "fa fa-braille",
+    image: "https://d30y9cdsu7xlg0.cloudfront.net/png/629003-200.png",
     content: "I recently started playing chess in my spare time (chess.com). My favorite opening is the Fried Liver Attack."
 }
 
 const piano = {
     title: "Piano",
     headerTitle: "Test 2", // not needed
-    image: "fa fa-music",
+    image: "https://d30y9cdsu7xlg0.cloudfront.net/png/17849-200.png",
     content: "I love to play R&B piano in my spare time. However, my repertoire of songs mainly includes Disney classics."
 }
 
