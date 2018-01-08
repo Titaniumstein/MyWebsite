@@ -16,7 +16,7 @@ class NavBar extends React.Component{
 
     render(){
         return(
-            <AppBar style={{backgroundColor:"inherit"}}
+            <AppBar
             title={PROFILE.name}
             onTitleClick={this.props.onTitleClick}
             //iconElementLeft={<IconButton><NavigationClose /></IconButton>}
