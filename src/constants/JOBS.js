@@ -3,11 +3,37 @@ import Experience from 'models/Experience';
 import ExpItem from 'models/ExpItem';
 
 
+
+const pickApp = new Experience(
+    1,
+    "2017",
+    "PickApp Hockey",
+    "Project, Toronto, ON",
+    [
+        new ExpItem(
+            0,
+            "A web application (SPA) for improving shinny in Toronto"
+        ),
+        new ExpItem(
+            1,
+            "The frontend was developed using React, Redux, Material-UI (React Toolbox), and D3 (Recharts)"
+        ),
+        new ExpItem(
+            1,
+            "The backend was built on Node, which exposed API through Express for handling hockey data (rinks, players, playtime)"
+        ),
+        new ExpItem(
+            1,
+            "Isomorphic JavaScript was used to assist in client-server Communication"
+        ),
+    ]
+    );
+
 const financeApp = new Experience(
     1,
-    "2016-Present",
+    "2017",
     "FinanceManagerApplication",
-    "Freelance, Toronto, ON",
+    "Project, Toronto, ON",
     [
         new ExpItem(
             0,
@@ -34,9 +60,9 @@ const financeApp = new Experience(
 
     const podiatryApp = new Experience(
         1,
-        "2016-Present",
+        "2017",
         "Podiatry Application",
-        "Freelance, Toronto, ON",
+        "Project, Toronto, ON",
         [
             new ExpItem(
                 0,
@@ -76,4 +102,4 @@ const financeApp = new Experience(
 
 
 
-export default [financeApp, podiatryApp, CRG];
+export default [pickApp, financeApp, podiatryApp, CRG];

@@ -19,7 +19,7 @@ class WorkExperience extends React.Component{
 
         })
         return(
-            <Section caption="Work Experience">
+            <Section caption="Experience">
                 {items}
             </Section>
         )

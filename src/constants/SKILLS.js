@@ -11,7 +11,7 @@ const dotNet = new Skill(
 const javaScript = new Skill(
     2,
     "JavaScript",
-    "React, Redux, Node, Express, Inversify, Bookshelf"
+    "Webpack, React, Redux, Node, Express, Request, Inversify, Bookshelf"
     );
 const databses = new Skill(
     3,
